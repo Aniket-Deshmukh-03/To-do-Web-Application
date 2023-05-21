@@ -5,25 +5,17 @@
     box-sizing: border-box;
 }
 
-h2 {
-    margin-left: 500px;
-}
-
 .container {
     width: 100%;
     min-height: 100vh;
-    /* background: linear-gradient(135deg, #153677, #4e085f); */
-    background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-
+    background-image: linear-gradient(109.6deg, rgba(9, 9, 121, 1) 11.2%, rgba(144, 6, 161, 1) 53.7%, rgba(0, 212, 255, 1) 100.2%);
     padding: 10px;
-    
 }
 
 .todo-app {
     width: 100%;
     max-width: 540px;
-    background: #fff;
+    background: white;
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
@@ -45,7 +37,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #edeef0;
+    background: lightgray;
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
@@ -63,9 +55,9 @@ input {
 button {
     border: none;
     outline: none;
-    padding: 16px 50px;
-    background: #ff5945;
-    color: #fff;
+    padding: 16px 40px;
+    background: orangered;
+    color: white;
     font-size: 16px;
     cursor: pointer;
     border-radius: 40px;
@@ -78,6 +70,9 @@ ul li {
     user-select: none;
     cursor: pointer;
     position: relative;
+    background: lightgray;
+    border-radius: 25px;
+    margin-bottom: 20px;
 }
 
 ul li::before {
